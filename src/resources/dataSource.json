@@ -1,0 +1,90 @@
+[
+  {
+    "listData": {
+      "id": "2",
+      "Fullname":{
+        "label":"Full name",
+        "value":"Anna Jackson"
+      } ,
+      "Email": {
+        "label":"Email",
+        "value":"demoorders@propago.com"
+      } ,
+      "Title":{
+        "label":"Title",
+        "value":"Account Manager"
+      } ,
+      "Phone": 
+      {
+        "label":"Phone",
+        "value":"(512) 649-5385"
+      },
+      "Fax": 
+      {
+        "label":"Fax",
+        "value":"(512) 649-8322"
+      },
+      "Cell": 
+      {
+        "label":"Cell",
+        "value":""
+      },
+      "Website": 
+      {
+        "label":"Website",
+        "value":"www.acme.com"
+      },
+      "QRCode": 
+      {
+        "label":"QRCode",
+        "value":""
+      },
+      "Address1": 
+      {
+        "label":"Address No 1",
+        "value":"8240 N Mopac Expy"
+      },
+      "Address2": 
+      {
+        "label":"Address2",
+        "value":"Suite 140"
+      },
+      "City": 
+      {
+        "label":"City",
+        "value":"Austin"
+      },
+      "State": 
+      {
+        "label":"State",
+        "value":"TX"
+      },
+      "ZipCode": 
+      {
+        "label":"ZipCode",
+        "value":"78759"
+      },
+      "Map": {
+        "label":"Map",
+        "value":""
+      },
+      "Directions": {
+        "label":"Directions",
+        "value":""
+      }
+    },
+    "agentData1": {
+      "id": "2",
+      "name": "John"
+    },
+    "statusData": {
+      "new": true,
+      "reducedPrice": false,
+      "justSold": false
+    },
+    "part": {
+      "id": "15",
+      "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80"
+    }
+  }
+]
