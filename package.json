@@ -9,8 +9,12 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.14",
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
+    "dmg-components": "^0.0.2",
+    "vee-validate": "^3.4.1",
     "vue": "^2.6.11",
+    "vue-pdf": "^4.2.0",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {

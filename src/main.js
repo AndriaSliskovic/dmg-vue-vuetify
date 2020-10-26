@@ -1,8 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
+import axios from 'axios'
+import {defineCustomElements} from 'dmg-components/loader'
+
 import VueCompositionAPI from '@vue/composition-api'
 
+defineCustomElements(window)
+Vue.prototype.$http = axios
 Vue.use(VueCompositionAPI)
 Vue.config.productionTip = false
 

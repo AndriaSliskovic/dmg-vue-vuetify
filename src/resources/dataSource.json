@@ -4,73 +4,158 @@
       "id": "2",
       "Fullname":{
         "label":"Full name",
-        "value":"Anna Jackson"
+        "value":"Anna Jackson",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true,
+        "rules":"required"
       } ,
       "Email": {
         "label":"Email",
-        "value":"demoorders@propago.com"
+        "value":"demoorders@propago.com",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true,
+        "rules":{"required":true,"email":true}
       } ,
+      "Address1": 
+      {
+        "label":"Address No 1",
+        "value":"8240 N Mopac Expy",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
+      },
+      "Comment":{
+        "label":"Comment",
+        "value":"Some comment not longer than 200 characters",
+        "type":"text_area",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
+      },
+      "Image":{
+        "label":"Upload image",
+        "type":"upload_image_btn",
+        "hiden":false,
+        "enabled":true
+      },
       "Title":{
         "label":"Title",
-        "value":"Account Manager"
+        "value":"Account Manager",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":true,
+        "required":true,
+        "rules":"required"
       } ,
       "Phone": 
       {
         "label":"Phone",
-        "value":"(512) 649-5385"
+        "value":"(512) 649-5385",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true,
+        "rules":"required"
       },
       "Fax": 
       {
         "label":"Fax",
-        "value":"(512) 649-8322"
+        "value":"(512) 649-8322",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       },
       "Cell": 
       {
         "label":"Cell",
-        "value":""
+        "value":"111-222",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true,
+        "rules":"required"
       },
       "Website": 
       {
         "label":"Website",
-        "value":"www.acme.com"
+        "value":"www.acme.com",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       },
       "QRCode": 
       {
         "label":"QRCode",
-        "value":""
-      },
-      "Address1": 
-      {
-        "label":"Address No 1",
-        "value":"8240 N Mopac Expy"
-      },
-      "Address2": 
-      {
-        "label":"Address2",
-        "value":"Suite 140"
+        "value":"",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       },
       "City": 
       {
         "label":"City",
-        "value":"Austin"
+        "value":"Austin",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       },
       "State": 
       {
         "label":"State",
-        "value":"TX"
+        "value":"TX",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       },
       "ZipCode": 
       {
         "label":"ZipCode",
-        "value":"78759"
+        "value":"78759",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       },
       "Map": {
         "label":"Map",
-        "value":""
+        "value":"",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       },
       "Directions": {
         "label":"Directions",
-        "value":""
+        "value":"",
+        "type":"text_field",
+        "hiden":false,
+        "enabled":true,
+        "disabled":false,
+        "required":true
       }
     },
     "agentData1": {
